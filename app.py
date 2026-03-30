@@ -10,7 +10,7 @@ st.set_page_config(page_title="Election Dashboard", layout="wide")
 st.title("🗳️ Tamil Nadu Election Prediction Dashboard")
 
 # Load data
-df = pd.read_csv("data/tn_full_synthetic_dataset.csv")
+df = pd.read_csv("tn_full_synthetic_dataset.csv")
 
 # Sidebar controls
 st.sidebar.header("⚙️ Controls")
